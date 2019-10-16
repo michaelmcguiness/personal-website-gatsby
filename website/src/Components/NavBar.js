@@ -2,19 +2,17 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import { NavWrapper, NavComponentWrapper, 
-    StyledLink, Title 
+    StyledLink, NavTitle 
 } from './Styling';
 
 const NavBar = () => {
     return (
         <NavWrapper>
-            <Title>Michael McGuiness</Title>
+            <NavTitle>Michael McGuiness</NavTitle>
             <NavComponentWrapper>
-                <Router>
-                    <StyledLink to="/">Home</StyledLink>
-                    <StyledLink to="/about">About Me</StyledLink>
-                    <StyledLink to="/essays">Essays</StyledLink>
-                </Router>
+                <StyledLink to="/">Home</StyledLink>
+                <StyledLink to="/about">About Me</StyledLink>
+                <StyledLink to="/essays">Essays</StyledLink>
             </NavComponentWrapper>
         </NavWrapper>
     )

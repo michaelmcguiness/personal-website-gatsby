@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-
-/*=========UNIVERSAL=========*/
-export const P = styled.p`
-    font-size: 1.2rem;
-`;
 /*=========NAVBAR STYLING=========*/
 export const NavWrapper = styled.div`
     display: flex;
@@ -29,7 +24,7 @@ export const StyledLink = styled(Link)`
     margin: 20px 40px;
 `;
 
-export const Title = styled.h1`
+export const NavTitle = styled.h1`
     font-size: 2.0rem;
     font-weight: normal;
     margin: 20px 40px;
@@ -41,3 +36,34 @@ export const HomeWrapper = styled.div`
     margin: 50px auto;
 `;
 
+/*=========ESSAY STYLING=========*/
+export const EssayWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+export const EssayTitle = styled.h1`
+    font-size: 2.0rem;
+    font-weight: normal;
+    margin: 20px 40px;
+    text-decoration: underline;
+`;
+
+export const Tag = styled(Link)`
+    text-decoration: none;
+    color: dodgerblue;
+    margin: 10px;
+`;
+
+export const TagBox = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    width: 100%;
+`;
+
+export const P = styled.p`
+    text-indent: 50px;
+`;
