@@ -44,7 +44,7 @@ export const EssayWrapper = styled.div`
 `;
 
 export const EssayTitle = styled.h1`
-    font-size: 2.0rem;
+    font-size: 2.5rem;
     font-weight: normal;
     margin: 20px 40px;
     text-decoration: underline;
@@ -66,4 +66,9 @@ export const TagBox = styled.div`
 
 export const P = styled.p`
     text-indent: 50px;
+`;
+
+export const Q = styled.p`
+    font-style: italic;
+    margin: 50px;
 `;

@@ -1,13 +1,13 @@
 import React from 'react';
 
 import { HomeWrapper, P } from './Styling';
-import Replicators from '../Essays/Replicators';
+import Essay from './Essay';
 
 const HomePage = (props) => {
     return (
         <HomeWrapper>
             <p>Today's essay:</p>
-            <Replicators />
+            <Essay id={1} />
         </HomeWrapper>
     )
 }
