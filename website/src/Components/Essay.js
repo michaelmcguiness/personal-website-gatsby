@@ -2,7 +2,7 @@ import React from 'react';
 
 import EssayList from '../Essays/EssayList';
 import { EssayWrapper, 
-    EssayTitle, P, Tag, TagBox, Q
+    EssayTitle, P, Tag, TagBox, Q, Source
 } from './Styling';
 
 /*
@@ -23,16 +23,9 @@ const Essay = (props) => {
                 <p>Sources:</p>
                 {essay.sources.map(source => {
                     return (
-                        <a href={source.link} 
-                            target="_blank"
-                            style={
-                                {
-                                    textDecoration: "none", 
-                                    color: "dodgerblue"
-                                }
-                            }>
+                        <Source href={source.link} target="_blank">
                             {source.title}
-                        </a>
+                        </Source>
                     )
                 })}
             </TagBox>
