@@ -1,15 +1,19 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Twitter, LinkedIn, GitHub, Email } from "@material-ui/icons"
+import Link from "@material-ui/core/Link"
 
 import Header from "./header"
+import "../styles/index.scss"
+
+const footerStyles = {
+  display: "Flex",
+  justifyContent: "space-between",
+  marginTop: "20rem",
+  alignItems: "center",
+  width: "100%",
+}
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,10 +37,44 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={footerStyles}>
+          Michael McGuiness © {new Date().getFullYear()}
+          <div style={{ maxWidth: "400px" }}>
+            <Link
+              target="_blank"
+              href="https://twitter.com/m_mcguin"
+              rel="noopener"
+              color="inherit"
+              style={{ margin: "1rem" }}
+            >
+              <Twitter />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/mmcguiness/"
+              rel="noopener"
+              color="inherit"
+              style={{ margin: "1rem" }}
+            >
+              <LinkedIn />
+            </Link>
+            <Link
+              target="_blank"
+              href="https://github.com/michaelmcguiness"
+              rel="noopener"
+              color="inherit"
+              style={{ margin: "1rem" }}
+            >
+              <GitHub />
+            </Link>
+            <Link
+              href="mailto: michaelmcguiness2@outlook.com"
+              color="inherit"
+              style={{ margin: "1rem" }}
+            >
+              <Email />
+            </Link>{" "}
+          </div>
         </footer>
       </div>
     </>
