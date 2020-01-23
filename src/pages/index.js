@@ -16,7 +16,7 @@ const IndexPage = () => (
           <div>
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <Post
-                node={node}
+                key={node.frontmatter.path}
                 title={node.frontmatter.title}
                 sources={node.frontmatter.sources}
                 path={node.frontmatter.path}
@@ -38,8 +38,12 @@ const IndexQuery = graphql`
           id
           frontmatter {
             title
-            sources
             path
+            sources {
+              title
+              authors
+              link
+            }
           }
           excerpt
         }

@@ -1,7 +1,14 @@
 ---
 title: "Zero to One"
-sources: "Zero to One by Peter Thiel"
 path: "/zero-to-one"
+sources:
+  [
+    {
+      title: "Zero to One",
+      authors: ["Peter Thiel"],
+      link: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296",
+    },
+  ]
 ---
 
 Humans are distinguished from other species by our ability to work miracles. We call these miracles technology. Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental capabilities to a higher level. Other animals are instinctively driven to build things like dams or honeycombs, but we are the only ones that can invent new things and better ways of making them. Humans don’t decide what to do by making choices from some cosmic catalog of options given in advance; instead, by creating new technologies, we rewrite the plan of the world.
