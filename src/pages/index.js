@@ -14,12 +14,10 @@ const IndexPage = () => (
       render={data => {
         return (
           <div>
-            {data.allMarkdownRemark.edges.map(({ node }) => (
+            {data.allMarkdownRemark.edges.map(({ node }, index) => (
               <Post
-                key={node.frontmatter.path}
-                title={node.frontmatter.title}
-                sources={node.frontmatter.sources}
-                path={node.frontmatter.path}
+                key={index}
+                frontmatter={node.frontmatter}
                 body={node.excerpt}
               />
             ))}
@@ -44,6 +42,7 @@ const IndexQuery = graphql`
               authors
               link
             }
+            tags
           }
           excerpt
         }

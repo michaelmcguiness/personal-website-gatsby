@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
             <Link
               target="_blank"
               href="https://twitter.com/m_mcguin"
-              rel="noopener"
+              rel="noopener noreferrer"
               color="inherit"
               style={{ margin: "1rem" }}
             >
@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
             <Link
               target="_blank"
               href="https://www.linkedin.com/in/mmcguiness/"
-              rel="noopener"
+              rel="noopener noreferrer"
               color="inherit"
               style={{ margin: "1rem" }}
             >
@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
             <Link
               target="_blank"
               href="https://github.com/michaelmcguiness"
-              rel="noopener"
+              rel="noopener noreferrer"
               color="inherit"
               style={{ margin: "1rem" }}
             >
@@ -69,6 +69,8 @@ const Layout = ({ children }) => {
             </Link>
             <Link
               href="mailto: michaelmcguiness2@outlook.com"
+              target="_blank"
+              rel="noopener noreferrer"
               color="inherit"
               style={{ margin: "1rem" }}
             >

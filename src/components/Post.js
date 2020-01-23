@@ -1,9 +1,18 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap"
+import {
+  Badge,
+  Card,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  CardText,
+} from "reactstrap"
 import Source from "./Source"
+import { slugify } from "../util/utilityFunctions"
 
-const Post = ({ node, title, sources, path, body }) => {
+const Post = ({ frontmatter: { tags, title, sources, path }, body }) => {
+  console.log(path)
   return (
     <Card>
       <CardBody>
@@ -11,17 +20,21 @@ const Post = ({ node, title, sources, path, body }) => {
         <CardSubtitle style={{ marginTop: "0.5rem" }}>
           <span>
             Sources:{" "}
-            {sources.map(source => (
-              <Source
-                key={source.title}
-                title={source.title}
-                authors={source.authors}
-                link={source.link}
-              />
+            {sources.map((source, index) => (
+              <Source key={index} source={source} />
             ))}
           </span>
         </CardSubtitle>
         <CardText style={{ marginTop: "0.5rem" }}>{body}</CardText>
+        <ul className="post-tags">
+          {tags.map((tag, index) => (
+            <li key={index}>
+              <Link to={`/tag/${slugify(tag)}`}>
+                <Badge color="primary">{tag}</Badge>
+              </Link>
+            </li>
+          ))}
+        </ul>
         <Link to={path} className="btn btn-outline-primary float-right">
           Read more
         </Link>

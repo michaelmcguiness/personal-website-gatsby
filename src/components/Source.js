@@ -1,15 +1,14 @@
 import React from "react"
 
-const Source = ({ title, authors, link }) => {
-  console.log(authors)
+const Source = ({ source: { title, authors, link } }) => {
   return (
     <span>
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         {title}
       </a>{" "}
       by{" "}
-      {authors.map(author => (
-        <a>{author} </a>
+      {authors.map((author, index) => (
+        <a key={index}>{author} </a>
       ))}
     </span>
   )

@@ -9,6 +9,10 @@ sources:
       link: "https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554",
     },
   ]
+tags:
+  - business
+  - startups
+  - technology
 ---
 
 There are a lot of ways to get rich, and this essay is about only one of them. This essay is about how to make money by creating wealth and getting paid for it. There are plenty of other ways to get money, including chance, speculation, marriage, inheritance, theft, extortion, fraud, monopoly, graft, lobbying, counterfeiting, and prospecting. Most of the greatest fortunes have probably involved several of these. However, the advantage of creating wealth, as a way to get rich, is not just that it’s more legitimate but that it’s more straightforward. You just have to do something people want.
