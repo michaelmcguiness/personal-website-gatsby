@@ -1,6 +1,5 @@
 ---
 title: "How to Make Wealth"
-path: "/how-to-make-wealth"
 sources:
   [
     {

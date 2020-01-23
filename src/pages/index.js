@@ -19,6 +19,7 @@ const IndexPage = () => (
                 key={index}
                 frontmatter={node.frontmatter}
                 body={node.excerpt}
+                slug={node.fields.slug}
               />
             ))}
           </div>
@@ -36,13 +37,15 @@ const IndexQuery = graphql`
           id
           frontmatter {
             title
-            path
             sources {
               title
               authors
               link
             }
             tags
+          }
+          fields {
+            slug
           }
           excerpt
         }

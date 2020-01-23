@@ -1,6 +1,5 @@
 ---
 title: "Zero to One"
-path: "/zero-to-one"
 sources:
   [
     {
@@ -14,6 +13,8 @@ tags:
   - startups
   - technology
 ---
+
+# Zero to One
 
 Humans are distinguished from other species by our ability to work miracles. We call these miracles technology. Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental capabilities to a higher level. Other animals are instinctively driven to build things like dams or honeycombs, but we are the only ones that can invent new things and better ways of making them. Humans don’t decide what to do by making choices from some cosmic catalog of options given in advance; instead, by creating new technologies, we rewrite the plan of the world.
 
@@ -29,7 +30,7 @@ New technology tends to come from new ventures—startups. From the Founding Fat
 
 A new company’s most important strength is new thinking: even more important than nimbleness, small size affords space to think. A startup has to question received ideas and rethink business from scratch. The first step to thinking clearly is to question what we think we know about the past. Hence, we must ask ourselves a contrarian question: What important truth do very few people agree with you on? This is a difficult question to answer directly. It may be easier to start with a preliminary: what does everybody agree on? “Madness is rare in individuals—but in groups, parties, nations, and ages it is the rule,” Nietzsche wrote (before he went mad). If you can identify a delusional popular belief, you can find what lies hidden behind it: the contrarian truth. You can’t escape the madness of crowds by dogmatically rejecting them. Instead ask yourself: how much of what you know about business is shaped by mistaken reactions to past mistakes? The most contrarian thing of all is not to oppose the crowd but to think for yourself.
 
-# Perfect Competition vs. Monopoly
+## Perfect Competition vs. Monopoly
 
 The business version of our contrarian question is: what valuable company is nobody building? This question is harder than it looks, because your company could create a lot of value without becoming very valuable itself. Creating value is not enough—you also need to capture some of the value you create.
 
@@ -59,7 +60,7 @@ So why are economists obsessed with competition as an ideal state? It’s a reli
 
 Perfect equilibrium may describe the void that is most of the universe. It may even characterize many businesses. But every new creation takes place far from equilibrium. In the real world outside economic theory, every business is successful exactly to the extent that it does something others cannot. Monopoly is therefore not a pathology or an exception. Monopoly is the condition of every successful business. Tolstoy opens Anna Karenina by observing: “All happy families are alike; each unhappy family is unhappy in its own way.” Business is the opposite. All happy companies are different: each one earns a monopoly by solving a unique problem. All failed companies are the same: they failed to escape competition.
 
-# The Ideology of Competition
+## The Ideology of Competition
 
 Creative monopoly means new products that benefit everybody and sustainable profits for the creator. Competition means no profits for anybody, no meaningful differentiation, and a struggle for survival. So why do people believe that competition is healthy? The answer is that competition is not just an economic concept or a simple inconvenience that individuals and companies must deal with in the marketplace. More than anything else, competition is an ideology—the ideology—that. Pervades our society and distorts our thinking. We preach competition, internalize its necessity, and enact its commandments; and as a result, we trap ourselves within it—even though the more we compete, the less we gain.
 
@@ -75,7 +76,7 @@ The hazards of imitative competition may partially explain why individuals with 
 Competition can make people hallucinate opportunities where none exist. The crazy ‘90s version of this was the fierce battle for the online pet store market. Winning is better than losing but everybody loses when the war isn’t one worth fighting. Other times, rivalry is just weird and distracting.
 Sometimes you do have to fight. Where that’s true, you should fight and win. There is no middle ground: either don’t throw any punches, or strike hard and end it quickly. This advice can be hard to follow because pride and honor can get in the way. Hence Hamlet. For Hamlet, greatness means willingness to fight. For reasons as thin as an eggshell: anyone would fight for things that matter; true heroes take their personal honor so seriously they will fight for things that don’t matter. This twisted logic is part of human nature, but it’s disastrous in business. If you can recognize competition as a destructive force instead of a sign of value, you’re already more sane than most.
 
-# Last Mover Advantage
+## Last Mover Advantage
 
 Escaping competition will give you a monopoly, but even a monopoly is only a great business if it can endure in the future. When it went public, Twitter’s market capitalization dwarfed that of the New York Times Company. What explains the huge premium for Twitter? The answer is cash flow. This sounds bizarre at first, since the Times was profitable while Twitter wasn’t. But a great business is defined y its ability to generate cash flows, in the future. Investors expect Twitter will be able to capture monopoly profits over the next decade, while newspapers’ monopoly days are over.
 
@@ -84,7 +85,7 @@ Technology companies follow the opposite trajectory. They often lose money for t
 
 What does a company with large cash flows far into the future look like? Every monopoly is unique, but they usually share some combination of the following characteristics: proprietary technology, network effects, economies of scale, and branding. This isn’t a list of boxes to check as you build your business—there’s no shortcut to monopoly. However, analyzing your business according to these characteristics can help you think about how to make it durable.
 
-## Proprietary Technology
+### Proprietary Technology
 
 Proprietary technology is the most substantive advantage a company can have because it makes your product difficult or impossible to replicate. Google’s search algorithms, for example, return results better than anyone else’s. Proprietary technologies for extremely short page load times and highly accurate query autocompletion add to the core search product’s robustness and defensibility.
 
@@ -94,17 +95,17 @@ The clearest way to make a 10x improvement is to invent something completely new
 
 You can also make a 10x improvement through superior integrated design. Before 2010, tablet computing was so poor that for all practical purposes the market didn’t even exist. “Microsoft Windows XP Tablet PC Edition” products first shipped in 2002, and Nokia released its own “Internet Tablet” in 2005, but they were a pain to use. Then Apple released the iPad. Design improvements are hard to measure, but it seems clear that Apple improved on anything that had come before by at least an order of magnitude: tablets went from unusable to useful.
 
-## Network Effects
+### Network Effects
 
 Network effects make a product more useful as more people use it. Network effects can be powerful, but you’ll never reap them unless your product is valuable to its very first users when the network is necessarily small. Paradoxically, then, network effects businesses must start with especially small markets. Facebook started with just Harvard students—Mark Zuckerberg’s first product was designed to get all his classmates signed up, not to attract all people of earth. This is why successful network businesses rarely get started by MBA types: the initial markets are so small that they often don’t even appear to be business opportunities at all.
 
-## Economies of Scale
+### Economies of Scale
 
 A monopoly business gets stronger as it gets bigger: the fixed costs of creating a product (engineering, management, office space) can be spread out over ever greater quantities of sales. Software startups can enjoy especially dramatic economies of scale because the marginal cost of producing another copy of the product is close to zero. Many businesses gain only limited advantages as they grow to large scale. Service businesses especially are difficult to make monopolies. If you own a yoga studio, for example, you’ll only be able to serve a certain number of customers. You can hire more instructors and expand to more locations, but your margins will remain fairly low and you’ll never reach a point where a core group of talented people can provide something of value to millions of separate clients, as software engineers are able to do.
 
 A good startup should have the potential for great scale built into its first design. Twitter already has more than 250 million users today. It doesn’t need to add too many customized features in order to acquire more, and there’s no inherent reason why it should ever stop growing.
 
-## Branding
+### Branding
 
 A company has a monopoly on its own brand by definition, so creating a strong brand is a powerful way to claim a monopoly. Today’s strongest tech brand is Apple: the attractive looks and carefully chosen materials of products like the iPhone and MacBook, the Apple Store’s sleek minimalist design and close control over the customer experience, the omnipresent advertising campaigns, the price positioning as a maker of premium goods, and the lingering nimbus of Steve Jobs’s personal charisma all contribute to a perception that Apple offers products so good as to constitute a category of their own.
 
@@ -112,7 +113,7 @@ Many have tried to learn from Apple’s success: paid advertising, branded store
 
 Beginning with brand rather than substance is dangerous. When Steve Jobs returned to Apple, he didn’t just make Apple a cool place to work; he slashed product lines to focus on the handful of opportunities for 10x improvements. No technology company can be built on branding alone.
 
-## Building a Monopoly
+### Building a Monopoly
 
 Brand, scale, network effects, and technology in some combination define a monopoly; but to get them to work, you need to choose your market carefully and expand deliberately. Every startup is small at the start. Every monopoly dominates a large share of its market. Therefore, every startup should start with a very small market. Always err on the side of starting too small. The reason is simple: it’s easier to dominate a small market than a large one. If you think your initial market might be too big, it almost certainly is.
 
@@ -122,7 +123,7 @@ Once you create and dominate a niche market, then you should gradually expand in
 
 eBay also started by dominating small niche markets. When it launched its auction marketplace in 1995, it didn’t need the whole world to adopt it at once; the product worked well for intense interest groups, like Beanie Baby obsessives. Once it monopolized the Beanie Baby trade, eBay didn’t jump straight to listing sports cars or industrial surplus: it continued to cater to small-time hobbyists until it became the most reliable marketplace for people trading online no matter what the item. Sequencing markets correctly is underrated, and it takes discipline to expand gradually. The most successful companies make the core progression—to first dominate a specific niche and then scale to adjacent markets—a part of their founding narrative.
 
-## Don’t Disrupt
+### Don’t Disrupt
 
 Silicon Valley has become obsessed with “disruption.” Originally, “disruption” was a term of art to describe how a firm can use new technology to introduce a low-end product at low prices, improve the product over time, and eventually overtake even the premium products offered by incumbent companies using older technology. This is roughly what happened when the advent of PCs disrupted the market for mainframe computers: at first PCs seemed irrelevant, then they became dominant. Today mobile devices may be doing the same thing to PCs.
 
@@ -130,11 +131,11 @@ However, disruption has recently transmogrified into a self-congratulatory buzzw
 
 Disruption also attracts attention: disruptors are people who look for trouble and find it. Disruptive kids get sent to the principal’s office. Disruptive companies often pick fights they can’t win. Think of Napster: the name itself meant trouble. What kinds of things can one “nap”? Music . . . Kids . . . and perhaps not much else. As you craft a plan to expand to adjacent markets, don’t disrupt: avoid competition as much as possible.
 
-## The Last Will Be First
+### The Last Will Be First
 
 You’ve probably heard about “first mover advantage”: if you’re the first entrant into a market, you can capture significant market share while competitors scramble to get started. But moving first is a tactic, not a goal. What really matters is generating cash flows in the future, so being the first mover doesn’t do you any good if someone else comes along and unseats you. It’s much better to be the last mover—that is, to make the last great development in a specific market and enjoy years or even decades of monopoly profits. The way to do that is to dominate a small niche and scale up from there, toward your ambitious long-term vision. In this one particular at least, business is like chess. Grandmaster Jose Raul Capablanca put it well: to succeed, “you must study the endgame before everything else.”
 
-## Reject the Tyranny of Chance
+### Reject the Tyranny of Chance
 
 The most contentious question in business is whether success comes from luck or skill. Did Bill Gates simply win the intelligence lottery? Was Sheryl Sandberg born with a silver spoon, or did she “lean in”?
 
@@ -142,7 +143,7 @@ From the Renaissance and the Enlightenment to the mid-20th century, luck was som
 
 A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket.
 
-# Secrets
+## Secrets
 
 Every one of today’s most famous and familiar ideas was once unknown and unsuspected. The mathematical relationship between a triangle’s sides, for example, was secret for millennia. Pythagoras had to think hard to discover it. Today, his geometry has become a convention—a simple truth we teach to grade schoolers. A conventional truth can be important—it’s essential to learn elementary mathematics, for example—but it won’t give you an edge. It’s not a secret.
 
@@ -156,15 +157,15 @@ There are two kinds of secrets: secrets of nature and secrets about people. Natu
 
 Every great business is built around a secret that’s hidden from the outside. A great company is a conspiracy to change the world; when you share your secret, the recipient becomes a fellow conspirator.
 
-# Foundations
+## Foundations
 
 Every great company is unique, but there are a few things that every great business must get right at the beginning. Bad decisions made early on—if you choose the wrong partners or hire the wrong people, for example—are very hard to correct after they are made. It may take a crisis on the order of bankruptcy before anybody will even try to correct them. As a founder, your first job is to get the first things right, because you cannot build a great company on a flawed foundation.
 
-## Founding Matrimony
+### Founding Matrimony
 
 When you start something, the first and most crucial decision you make is whom to start it with. Choosing a co-founder is like getting married, and founder conflict is just as ugly as divorce. Optimism abounds at the start of every relationship. It’s unromantic to think soberly about what could go wrong, so people don’t. But if the founders develop irreconcilable differences, the company becomes the victim. Technical abilities and complementary skill sets matter, but how well the founders know each other and how well they work together matter just as much. Founders should share a prehistory before they start a company together—otherwise they’re just rolling dice.
 
-## Ownership, Possession, and Control
+### Ownership, Possession, and Control
 
 It’s not just founders who need to get along. Everyone in your company needs to work well together. You need good people who get along, but you also need a structure to help keep everyone aligned for the long term. To anticipate likely sources of misalignment in any company, it’s useful to distinguish between three concepts:
 
@@ -178,13 +179,13 @@ Unlike corporate giants, early-stage startups are small enough that founders usu
 
 In the boardroom, less is more. The smaller the board, the easier it is for the directors to communicate, to reach consensus, and to exercise effective oversight. However, that very effectiveness means that a small board can forcefully oppose management in any conflict. This is why it’s crucial to choose wisely: e very single member of your board matters. Even one problem director will cause you pain and may even jeopardize your company’s future.
 
-    A board of three is ideal.  Your board should never exceed five people, unless your company is publicly held.  (Government regulations effectively mandate that public companies have larger boards—the average is nine members.).  By far the worst you can do is to make your board extra large.  When unsavvy observers see a nonprofit organization with dozens of people on its board, they think: “Look how many great people are committed to this organization! It must be extremely well run.”  Actually, a huge board will exercise no effective oversight at all; it merely provides cover for whatever microdictator actually runs the organization.  If you want that kind of free rein from your board, blow it up to giant size.  If you want an effective board, keep it small.
+A board of three is ideal. Your board should never exceed five people, unless your company is publicly held. (Government regulations effectively mandate that public companies have larger boards—the average is nine members.). By far the worst you can do is to make your board extra large. When unsavvy observers see a nonprofit organization with dozens of people on its board, they think: “Look how many great people are committed to this organization! It must be extremely well run.” Actually, a huge board will exercise no effective oversight at all; it merely provides cover for whatever microdictator actually runs the organization. If you want that kind of free rein from your board, blow it up to giant size. If you want an effective board, keep it small.
 
-## On the Bus or Off the Bus
+### On the Bus or Off the Bus
 
 As a general rule, everyone you involve with your company should be involved full-time. Sometimes you’ll have to break this rule; it usually makes sense to hire outside lawyers and accountants, for example. However, anyone who doesn’t own stock options or draw a regular salary from your company is fundamentally misaligned. At the margin, they’ll be biased to claim value in the near term, not help you create more in the future. That’s why hiring consultants doesn’t work. Part-time employees don’t work. Even working remotely should be avoided, because misalignment can creep in whenever colleagues aren’t together full-time, in the same place, every day. If you’re deciding whether to bring someone on board, the decision is binary. You’re either on the bus or off the bus.
 
-## Cash is Not King
+### Cash is Not King
 
 For people to be fully committed, they should be properly compensated. However, a company does better the less it pays the CEO. In no case should a CEO of an early-stage, venture-backed startup receive more than $150,000 per year in salary.  If a CEO collects $300,000 per year, he risks becoming more like a politician than a founder. High pay incentivizes him to defend the status quo along with his salary, not to work with everyone else to surface problems and fix them aggressively. A cash-poor executive, by contrast, will focus on increasing the value of the company as a whole.
 
@@ -192,7 +193,7 @@ Low CEO pay also sets the standard for everyone else. Aaron Levie, the CEO of Bo
 
 Cash is attractive. It offers pure optionality: once you get your paycheck, you can do anything you want with it. However, high cash compensation teaches workers to claim value from the company as it already exists instead of investing their time to create new value in the future. A cash bonus is slightly better than a cash salary—at least it’s contingent on a job well done. But even so-called incentive pay encourages short-term thinking and value grabbing. Any kind of cash is more about the present than the future.
 
-## Vested Interests
+### Vested Interests
 
 Startups don’t need to pay high salaries because they can offer something better: part ownership of the company itself. Equity is the one form of compensation that can effectively orient people toward creating value in the future. However, for equity to create commitment rather than conflict, you must allocate it very carefully. Giving everyone equal shares is usually a mistake: every individual has different talents and responsibilities as well as different opportunity costs, so equal amounts will seem arbitrary and unfair from the start. On the other hand, granting different amounts up front is just as sure to seem unfair. Resentment at this stage can kill a company, but there’s no ownership formula to perfectly avoid it.
 
@@ -200,13 +201,13 @@ This problem becomes even more acute over time as more people join the company. 
 
 Most people don’t want equity at all. Stories of startup chefs becoming millionaires notwithstanding, people often find equity unattractive. It’s not liquid like cash. It’s tied to one specific company. And if that company doesn’t succeed, it’s worthless. Equity is a powerful tool precisely because of these limitations. Anyone who prefers owning a part of your company to being paid in cash reveals a preference for the long term and a commitment to increasing your company’s value in the future. Equity can’t create perfect incentives, but it’s the best way for a founder to keep everyone in the company broadly aligned.
 
-## Extending the Founding
+### Extending the Founding
 
 Bob Dylan has said that he who is not busy being born is busy dying. If he’s right, being born doesn’t happen at just one moment—you might even continue to do it somehow, poetically at least. The founding moment of a company, however, really does happen just once: only at the very start do you have the opportunity to set the rules that will align people toward the creation of value in the future.
 
 The most valuable kind of company maintains an openness to invention that is most characteristic of beginnings. This leads to a second, less obvious understanding of the founding: it lasts as long as a company is creating new things, and it ends when creation stops. If you get the founding moment right, you can do more than create a valuable company: you can steer its distant future toward the creation of new things instead of the stewardship of inherited success. You might even extend its founding indefinitely.
 
-# The Mechanics of a Mafia
+## The Mechanics of a Mafia
 
 Start with a thought experiment: what would the ideal company culture look like? Employees should love their work. They should enjoy going to the office so much that formal business hours become obsolete and nobody watches the clock. The workspace should be open, not cubicled, and workers should feel at home: beanbag chairs and Ping-Pong tables might outnumber file cabinets. Free massages, on-site sushi chefs, and maybe even yoga classes would sweeten the scene. Pets should be welcome, too: perhaps employees’ dogs and cats could come and join the office’s tankful of tropical fish as unofficial company mascots.
 
@@ -234,7 +235,7 @@ The best thing Thiel did as a manager at PayPal was to make every person in the 
 
 Entrepreneurs should take their cultures seriously. Is a lukewarm attitude to one’s work a sign of mental health? Is a merely professional attitude the only sane approach? The best startups might be considered slightly less extreme kinds of cults. The biggest difference is that cults tend to be fanatically wrong about something important. People at a successful startup are fanatically right about something those outside it have missed. You’re not going to learn those kinds of secrets from consultants, and you don’t need to worry if your company doesn’t make sense to conventional professionals. Better to be called a cult—or even a mafia.
 
-# Distribution
+## Distribution
 
 We underestimate the importance of distribution—a catchall term for everything it takes to sell a product. Engineers are biased toward building cool stuff rather than selling it. But customers will not come just because you build it. You have to make that happen, and it’s harder than it looks.
 
@@ -242,7 +243,7 @@ In Silicon Valley, nerds are skeptical of advertising, marketing, and sales beca
 
 Nerds are used to transparency. They add value by becoming expert at a technical skill like computer programming. In engineering disciplines, a solution either works or it fails. You can evaluate someone else’s work with relative ease, as surface appearances don’t matter much. Sales is the opposite: an orchestrated campaign to change surface appearances without changing the underlying reality. This strikes engineers a trivial if not fundamentally dishonest. They know their own jobs ae hard, so when they look at salespeople laughing on the phone with a customer or going to two-hour lunches, they suspect that no real work is being done. If anything, people overestimate the relative difficulty of science and engineering, because the challenges of those fields are obvious. What nerds miss is that it takes hard work to make sales look easy.
 
-## Sales is Hidden
+### Sales is Hidden
 
 All salesmen are actors: their priority is persuasion, not sincerity. That’s why the word “salesman” can be a slur and the used car dealer is our archetype of shadiness. But we only react negatively to awkward, obvious salesmen—that is, the bad ones. There’s a wide range of sales ability: there are many gradations between novices, experts, and masters. There are even sales grandmasters. If you don’t know any grandmasters, it’s not because you haven’t encountered them, but rather because their art is hidden in plain sight. Tom Sawyer managed to persuade his neighborhood friends to whitewash the fence for him—a masterful move. But convincing them to actually pay him for the privilege of doing his chores was the move of a grandmaster, and his friends were none the wiser. Not much has changed since Twain wrote in 1876.
 
@@ -252,13 +253,13 @@ Whatever the career, sales ability distinguishes superstars from also-rans. On W
 
 The engineer’s grail is a product great enough that “it sells itself.” But anyone who would actually say this about a real product must be lying: either he’s delusional (lying to himself) or he’s selling something (and thereby contradicting himself). The polar opposite business cliché warns that “the best product doesn’t always win.” Economists attribute this to “path dependence”: specific historical circumstances independent of objective quality can determine which products enjoy widespread adoption. That’s true, but it doesn’t mean the operating systems we use today and the keyboard layouts on which we type were imposed by mere chance. It’s better to think of distribution as something essential to the design of your product. If you’ve invented something new but you haven’t invented an effective way to sell it, you have a bad business—no matter how good the product.
 
-## How to Sell a Product
+### How to Sell a Product
 
 Superior sales and distribution by itself can create a monopoly, even with no product differentiation. The converse is not true. No matter how strong your product—even if it easily fits into already established habits and anybody who tries it likes it immediately—you must still support it with a strong distribution plan.
 
 Two metrics set the limits for effective distribution. The total net profit that you earn on average over the course of your relationship with a customer (Customer Lifetime Value, or CLV) must exceed the amount you spend on average to acquire a new customer (Customer Acquisition Cost, or CAC). In general, the higher the price of your product, the more you have to spend to make a sale—and the more it makes sense to spend it. Distribution methods can be plotted on a continuum:
 
-![sales chart](/images/zero-to-one-img1.png)
+![sales chart](./images/zero-to-one-img1.png)
 
 - **Complex Sales:** If your average sale is seven figures or more, every detail of every deal requires close personal attention. It might take months to develop the right relationships. You might make a sale only once every year or two. Then you’ll usually have to follow up during installation and service the product long after the deal is done. It’s hard to do, but this kind of “complex sales” is the only way to sell some of the most valuable products. Businesses with complex sales models succeed if they achieve 50% to 100% year-over-year growth over the course of a decade. This will seem slow to any entrepreneur dreaming of viral growth. You might expect revenue to increase 10x as soon as customers learn about an obviously superior product, but that almost never happens. Good enterprise sales strategy starts small, as it must: a new customer might agree to become your biggest customer, but they’ll rarely be comfortable signing a deal completely out of scale with what you’ve sold before. Once you have a pool of reference customers who are successfully using your product, then you can begin the long and methodical work of hustling toward even bigger deals.
 
@@ -270,7 +271,7 @@ Two metrics set the limits for effective distribution. The total net profit that
 
 - **Viral Marketing:** A product is viral if its core functionality encourages users to invite their friends to become users too. This is how Facebook and PayPal both grew quickly: every time someone shares with a friend or makes a payment, they naturally invite more and more people into the network. This isn’t just cheap—it’s fast, too. If every new user leads to more than one additional user, you can achieve a chain reaction of exponential growth. The ideal viral loop should be as quick and frictionless as possible. Funny YouTube videos or Internet memes get millions of views very quickly because they have extremely short cycle times: people see the kitten, feel warm inside, and forward it to their friends in a matter of seconds. Whoever is first to dominate the most important segment of a market with viral potential will be the last mover in the whole market.
 
-## Everybody Sells
+### Everybody Sells
 
 The kitchen sink approach—employ a few salespeople, place some magazine ads, and try to add some kind of viral functionality to the product as an afterthought—doesn’t work. Most businesses get zero distribution channels to work: poor sales rather than bad product is the most common cause of failure. If you can get just one distribution channel to work, you have a great business. If you try for several but don’t nail one, you’re finished.
 
@@ -278,7 +279,7 @@ Your company needs to sell more than its product. You must also sell your compan
 
 All of us want to believe that we make up our own minds, that sales doesn’t work on us. But it’s not true. Everybody has a product to sell—no matter whether you’re an employee, a founder, or an investor. It’s true even if your company consists of just you and your computer. Look around. If you don’t see any salespeople, you’re the salesperson.
 
-# Man and Machine
+## Man and Machine
 
 As mature industries stagnate, information technology has advanced so rapidly that it has now become synonymous with “technology” itself. Today, billions of people enjoy instant access to the world’s knowledge using pocket-sized devices. Every one of today’s smartphones has thousands of times more processing power than the computers that guided astronauts to the moon. And if Moore’s law continues apace, tomorrow’s computers will be even more powerful.
 
@@ -292,7 +293,7 @@ The differences are even deeper on the demand side. Unlike people in industriali
 
 Complementarity between computers and humans isn’t just a macro-scale fact. It’s also the path to building a great business. If humans and computers can achieve dramatically better results than either could attain alone, what valuable businesses can be built on this core principle? Think of what professionals do in their jobs today. Lawyers must be able to articulate solutions to thorny problems in several different ways—the pitch changes depending on whether you’re talking to a client, opposing counsel, or a judge. Doctors need to marry clinical understanding with an ability to communicate it to non-expert patients. And good teachers aren’t just experts in their disciplines: they must also understand how to tailor their instruction to different individuals’ interests and learning styles. Computers might be able to do some of these tasks, but they can’t combine them effectively. Better technology in law, medicine, and education won’t replace professionals; it will allow them to do even more. The most valuable companies in the future won’t ask what problems can be solved with computers alone. Instead, they’ll ask: how can computers help humans solve hard problems?
 
-# The Seven Questions that Every Business Must Answer
+## The Seven Questions that Every Business Must Answer
 
 At the start of the 21st century, everyone agreed that the next big thing was clean technology. Entrepreneurs started thousands of cleantech companies, and investors poured more than \$50 billion into them. So began the quest to cleanse the world. It didn’t work. Instead of a healthier planet, we got a massive cleantech bubble. Why did cleantech fail? Most cleantech companies crashed because they neglected one or more of the seven questions that every business must answer:
 
@@ -310,7 +311,7 @@ At the start of the 21st century, everyone agreed that the next big thing was cl
 
 1. **The Secret Question: Have you identified a unique opportunity that others don’t see?** Every cleantech company justified itself with conventional truths. About the need for a cleaner world. They deluded themselves into believing that an overwhelming social need for alternative energy solutions implied an overwhelming business opportunity for cleantech companies of all kinds. Each of the casualties had described their bright futures using broad conventions on which everybody agreed. Great companies have secrets: specific reasons for success that other people don’t see.
 
-## The Myth of Social Entrepreneurship
+### The Myth of Social Entrepreneurship
 
 Cleantech entrepreneurs aimed for more than just success as most businesses define it. The cleantech bubble was the biggest phenomenon—and the biggest flop—in the history of “social entrepreneurship.” This philanthropic approach to business tarts with the idea that corporations and nonprofits have until now been polar opposites: corporations have great power, but they’re shackled to the profit motive; nonprofits pursue the public interest, but they’re weak players in the wider economy. Social entrepreneurs aim to combine the best of both worlds and “do well by doing good.” Usually they end up doing neither.
 
@@ -318,11 +319,11 @@ The ambiguity between social and financial goals doesn’t help. The ambiguity i
 
 Progress isn’t held back by some difference between corporate greed and nonprofit goodness; instead, we’re held back by the sameness of both. Just as corporations tend to copy each other, nonprofits all tend to push the same priorities. Doing something different is what’s truly good for society—and it’s also what allows a business. To profit by monopolizing a new market. The best projects are likely to be overlooked, not trumpeted by a crowd; the best problems to work on are often the ones nobody else even tries to solve.
 
-## Final Points
+### Final Points
 
 An entrepreneur can’t benefit from macro-scale insight unless his own plans begin at the micro-scale. Cleantech companies faced the same problem: no matter how much the world needs energy, only a firm that offers a superior solution for a specific energy problem can make money. No sector will ever be so important that merely participating in it will be enough to build a great company. A valuable business must start by finding a niche and dominating a small market. Facebook started as a service for just one university campus before it spread to other schools and then the entire world.
 
-# The Founders’ Paradox
+## The Founders’ Paradox
 
 The companies that create new technology often resemble feudal monarchies rather than organizations that are supposedly more “modern.” A unique founder can make authoritative decisions, inspire strong personal loyalty, and plan ahead for decades. Pradoxically, impersonal bureaucracies staffed by trained professionals can lost longer than any lifetime, but they usually act with short time horizons.
 
@@ -330,6 +331,6 @@ The lesson for business is that we need founders. If anything, we should be more
 
 Above all, don’t overestimate your own power as an individual. Founders are important not because they are the only ones whose work has value, but rather because a great founder can bring out the best work from everybody at his company. That we need individual founders in all their peculiarity does not mean that we are called to worship Ayn Randian “prime movers” who claim to be independent of everybody around them. In this respect Rand was merely a half-great writer: her villains were real, but her heroes were fake. There is no Galt’s Gulch. There is no secession from society. To believe yourself invested with divine self-sufficiency is not the mark of a strong. Individual, but of a person who has mistaken the crowd’s worship—or jeering—for the truth. The single greatest danger for a founder is to become so certain of his own myth that he loses his mind. But an equally insidious danger for every business is to lose all sense of myth and mistake disenchantment for wisdom.
 
-# Conclusion
+## Conclusion
 
 The future won’t happen on its own. We cannot take for granted that the future will be better, and that means we need to work to create it today. Whether we achieve the Singularity on a cosmic scale is perhaps less important than whether we seize the unique opportunities we have to do new things in our own working lives. Everything important to us—the universe, the planet, the country, your company, your life, and this very moment—is singular. Our task today is to find singular ways to create the new things that will make the future not just different, but better—to go from 0 to 1. The essential first step is to think for yourself. Only by seeing our world anew, as fresh and strange as it was to the ancients who saw it first, can we both re-create it and preserve it for the future.

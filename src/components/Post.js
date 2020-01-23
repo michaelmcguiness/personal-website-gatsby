@@ -11,8 +11,7 @@ import {
 import Source from "./Source"
 import { slugify } from "../util/utilityFunctions"
 
-const Post = ({ frontmatter: { tags, title, sources, path }, body }) => {
-  console.log(path)
+const Post = ({ slug, frontmatter: { tags, title, sources }, body }) => {
   return (
     <Card>
       <CardBody>
@@ -35,7 +34,7 @@ const Post = ({ frontmatter: { tags, title, sources, path }, body }) => {
             </li>
           ))}
         </ul>
-        <Link to={path} className="btn btn-outline-primary float-right">
+        <Link to={slug} className="btn btn-outline-primary float-right">
           Read more
         </Link>
       </CardBody>
