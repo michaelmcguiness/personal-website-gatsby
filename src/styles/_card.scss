@@ -10,3 +10,15 @@ ul.post-tags {
     margin-right: 10px;
   }
 }
+.cardTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: $title-color;
+}
+.source {
+  color: #007bff;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

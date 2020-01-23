@@ -4,13 +4,6 @@ sources: "Hackers and Painters by Paul Graham"
 path: "/how-to-make-wealth"
 ---
 
-[
-{
-author: "Paul Graham",
-title: "Hackers and Painters",
-link: "https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554/ref=sr_1_1?crid=1V0DX6ZUV620G&keywords=hackers+and+painters&qid=1579737964&sprefix=hackers+and%2Caps%2C127&sr=8-1",
-},
-]
 There are a lot of ways to get rich, and this essay is about only one of them. This essay is about how to make money by creating wealth and getting paid for it. There are plenty of other ways to get money, including chance, speculation, marriage, inheritance, theft, extortion, fraud, monopoly, graft, lobbying, counterfeiting, and prospecting. Most of the greatest fortunes have probably involved several of these. However, the advantage of creating wealth, as a way to get rich, is not just that it’s more legitimate but that it’s more straightforward. You just have to do something people want.
 
 If you want to create wealth, it will help to understand what it is. Wealth is not the same thing as money. Wealth is as old as human history. Far older, in fact; ants have wealth. Money is a comparatively recent invention.

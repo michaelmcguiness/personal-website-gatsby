@@ -2,8 +2,10 @@
   margin-top: 60px;
 }
 body {
-  background-color: $light-gray;
+  background-color: #ffffff;
   font-family: $site-font;
+  color: $paragraph-color;
+  font-size: 1.2rem;
 }
 a {
   color: #0056b3;
@@ -20,12 +22,12 @@ h1 {
   background-color: white;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   line-height: 1;
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color: #0056b3;
+  font-size: 1.4rem;
+  color: $title-color;
   &:hover {
     color: #007bff;
   }

@@ -4,8 +4,8 @@ import SEO from "../components/seo"
 
 const EssayPage = () => (
   <Layout>
-    <SEO title="Essays" />
-    <h1>Essays</h1>
+    <SEO title="Book Notes" />
+    <h1>Book Notes</h1>
   </Layout>
 )
 

@@ -8,7 +8,7 @@ import Header from "./header"
 import "../styles/index.scss"
 
 const footerStyles = {
-  display: "Flex",
+  display: "flex",
   justifyContent: "space-between",
   marginTop: "20rem",
   alignItems: "center",

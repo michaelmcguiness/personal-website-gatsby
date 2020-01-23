@@ -4,13 +4,6 @@ sources: "Zero to One by Peter Thiel"
 path: "/zero-to-one"
 ---
 
-[
-{
-author: "Peter Thiel",
-title: "Zero to One",
-link: "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/ref=sr_1_1?keywords=zero+to+one&qid=1579737895&sr=8-1",
-},
-]
 Humans are distinguished from other species by our ability to work miracles. We call these miracles technology. Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental capabilities to a higher level. Other animals are instinctively driven to build things like dams or honeycombs, but we are the only ones that can invent new things and better ways of making them. Humans don’t decide what to do by making choices from some cosmic catalog of options given in advance; instead, by creating new technologies, we rewrite the plan of the world.
 
 When we think about the future, we hope for a future of progress. That progress can take one of two forms—horizontal or vertical. Horizontal (extensive) progress means copying things that work—going from 1 to n. Horizontal progress is easy to imagine because we already know what it looks like. Vertical (intensive) progress means doing new things—going from 0 to 1. Vertical progress his harder to imagine because it requires doing something nobody else has ever done. If you take one typewriter and build 100, you have made horizontal progress. If you have a typewriter and build a word processor, you have made vertical progress.
