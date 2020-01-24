@@ -14,8 +14,6 @@ tags:
   - technology
 ---
 
-# Zero to One
-
 Humans are distinguished from other species by our ability to work miracles. We call these miracles technology. Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental capabilities to a higher level. Other animals are instinctively driven to build things like dams or honeycombs, but we are the only ones that can invent new things and better ways of making them. Humans don’t decide what to do by making choices from some cosmic catalog of options given in advance; instead, by creating new technologies, we rewrite the plan of the world.
 
 When we think about the future, we hope for a future of progress. That progress can take one of two forms—horizontal or vertical. Horizontal (extensive) progress means copying things that work—going from 1 to n. Horizontal progress is easy to imagine because we already know what it looks like. Vertical (intensive) progress means doing new things—going from 0 to 1. Vertical progress his harder to imagine because it requires doing something nobody else has ever done. If you take one typewriter and build 100, you have made horizontal progress. If you have a typewriter and build a word processor, you have made vertical progress.
@@ -259,7 +257,7 @@ Superior sales and distribution by itself can create a monopoly, even with no pr
 
 Two metrics set the limits for effective distribution. The total net profit that you earn on average over the course of your relationship with a customer (Customer Lifetime Value, or CLV) must exceed the amount you spend on average to acquire a new customer (Customer Acquisition Cost, or CAC). In general, the higher the price of your product, the more you have to spend to make a sale—and the more it makes sense to spend it. Distribution methods can be plotted on a continuum:
 
-![sales chart](./images/zero-to-one-img1.png)
+![Sales Chart](../../images/zero-to-one-img1.png)
 
 - **Complex Sales:** If your average sale is seven figures or more, every detail of every deal requires close personal attention. It might take months to develop the right relationships. You might make a sale only once every year or two. Then you’ll usually have to follow up during installation and service the product long after the deal is done. It’s hard to do, but this kind of “complex sales” is the only way to sell some of the most valuable products. Businesses with complex sales models succeed if they achieve 50% to 100% year-over-year growth over the course of a decade. This will seem slow to any entrepreneur dreaming of viral growth. You might expect revenue to increase 10x as soon as customers learn about an obviously superior product, but that almost never happens. Good enterprise sales strategy starts small, as it must: a new customer might agree to become your biggest customer, but they’ll rarely be comfortable signing a deal completely out of scale with what you’ve sold before. Once you have a pool of reference customers who are successfully using your product, then you can begin the long and methodical work of hustling toward even bigger deals.
 
