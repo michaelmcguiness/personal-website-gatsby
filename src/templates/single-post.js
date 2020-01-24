@@ -11,6 +11,8 @@ const SinglePost = ({ data }) => {
   return (
     <Layout>
       <SEO title={post.title} />
+      <br />
+      <br />
       <h1>{post.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
       <ul className="post-tags">
