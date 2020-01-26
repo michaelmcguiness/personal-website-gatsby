@@ -6,7 +6,6 @@ import { Badge } from "reactstrap"
 import { slugify } from "../util/utilityFunctions"
 
 const SinglePost = ({ data }) => {
-  console.log(data)
   const post = data.markdownRemark.frontmatter
   return (
     <Layout>
