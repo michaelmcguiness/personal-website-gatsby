@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 
 const AboutPage = () => (
@@ -17,6 +17,7 @@ const AboutPage = () => (
       <a
         target="_blank"
         href="https://fs.blog/2012/04/feynman-technique/"
+        rel="noopener noreferrer"
       >{`"Feynman Technique"`}</a>
       {` which argues that when "you write out an idea from start to finish in simple language that a child can understand, you force yourself to understand the concept at a deeper level and simplify relationships and connections between ideas."  It also helps you identify gaps in your understanding of a topic.  It made sense to me, so I decided to give it a try.  I started turning my notes into essays and found that it worked extremely well.`}
     </p>
