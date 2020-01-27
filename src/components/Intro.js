@@ -6,7 +6,7 @@ const styles = {
   fontSize: "1.4rem",
   margin: "5rem auto 2rem",
   padding: "2rem",
-  minHeight: "550px",
+  minHeight: "450px",
 }
 const Intro = () => {
   return (
