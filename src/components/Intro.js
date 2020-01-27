@@ -4,8 +4,9 @@ import Typist from "react-typist"
 const styles = {
   maxWidth: "50rem",
   fontSize: "1.4rem",
-  margin: "10rem auto",
+  margin: "5rem auto",
   padding: "2rem",
+  minHeight: "500px",
 }
 const Intro = props => {
   return (
