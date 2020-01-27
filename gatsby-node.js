@@ -65,11 +65,15 @@ exports.createPages = ({ actions, graphql }) => {
       })
     })
 
-    // get all tags
+    // get all tags and authors
     let tags = []
+    let authors = []
     _.each(posts, edge => {
       if (_.get(edge, "node.frontmatter.tags")) {
         tags = tags.concat(edge.node.frontmatter.tags)
+        edge.node.frontmatter.sources.forEach(source => {
+          authors = authors.concat(source.authors)
+        })
       }
     })
 
@@ -80,14 +84,25 @@ exports.createPages = ({ actions, graphql }) => {
       tagPostCounts[tag] = (tagPostCounts[tag] || 0) + 1
     })
 
+    let authorPostCounts = {}
+    authors.forEach(author => {
+      authorPostCounts[author] = (authorPostCounts[author] || 0) + 1
+    })
+
     tags = _.uniq(tags)
+    authors = _.uniq(authors)
+
+    tags.sort()
+    authors.sort()
 
     // create notes page
     createPage({
       path: `/notes`,
       component: templates.notesPage,
       context: {
+        authors,
         tags,
+        authorPostCounts,
         tagPostCounts,
       },
     })
@@ -102,18 +117,6 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
-
-    // get all the authors
-    let authors = []
-    _.each(posts, edge => {
-      if (_.get(edge, "node.frontmatter.sources")) {
-        edge.node.frontmatter.sources.forEach(source => {
-          authors = authors.concat(source.authors)
-        })
-      }
-    })
-
-    authors = _.uniq(authors)
 
     // create author pages
     authors.forEach(author => {
