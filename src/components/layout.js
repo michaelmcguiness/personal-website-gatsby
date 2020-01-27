@@ -39,13 +39,19 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer style={footerStyles}>
           Michael McGuiness © {new Date().getFullYear()}
-          <div style={{ maxWidth: "400px" }}>
+          <div
+            style={{
+              maxWidth: "400px",
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
             <Link
               target="_blank"
               href="https://twitter.com/m_mcguin"
               rel="noopener noreferrer"
               color="inherit"
-              style={{ margin: "1rem" }}
+              style={{ margin: "0.2rem" }}
             >
               <Twitter />
             </Link>
@@ -54,7 +60,7 @@ const Layout = ({ children }) => {
               href="https://www.linkedin.com/in/mmcguiness/"
               rel="noopener noreferrer"
               color="inherit"
-              style={{ margin: "1rem" }}
+              style={{ margin: "0.2rem" }}
             >
               <LinkedIn />
             </Link>
@@ -63,7 +69,7 @@ const Layout = ({ children }) => {
               href="https://github.com/michaelmcguiness"
               rel="noopener noreferrer"
               color="inherit"
-              style={{ margin: "1rem" }}
+              style={{ margin: "0.2rem" }}
             >
               <GitHub />
             </Link>
@@ -72,7 +78,7 @@ const Layout = ({ children }) => {
               target="_blank"
               rel="noopener noreferrer"
               color="inherit"
-              style={{ margin: "1rem" }}
+              style={{ margin: "0.2rem" }}
             >
               <Email />
             </Link>{" "}
