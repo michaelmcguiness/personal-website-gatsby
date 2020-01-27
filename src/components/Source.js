@@ -1,4 +1,5 @@
 import React from "react"
+import { slugify } from "../util/utilityFunctions"
 
 const Source = ({ source: { title, authors, link } }) => {
   return (
@@ -8,7 +9,9 @@ const Source = ({ source: { title, authors, link } }) => {
       </a>{" "}
       by{" "}
       {authors.map((author, index) => (
-        <a key={index}>{author} </a>
+        <a key={index} href={`/author/${slugify(author)}`}>
+          {author}{" "}
+        </a>
       ))}
     </span>
   )

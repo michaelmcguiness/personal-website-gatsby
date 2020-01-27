@@ -23,6 +23,7 @@ exports.createPages = ({ actions, graphql }) => {
     singlePost: path.resolve("src/templates/single-post.js"),
     notesPage: path.resolve("src/templates/notes-page.js"),
     tagPosts: path.resolve("src/templates/tag-posts.js"),
+    authorPosts: path.resolve("src/templates/author-posts.js"),
   }
 
   return graphql(`
@@ -98,6 +99,30 @@ exports.createPages = ({ actions, graphql }) => {
         component: templates.tagPosts,
         context: {
           tag,
+        },
+      })
+    })
+
+    // get all the authors
+    let authors = []
+    _.each(posts, edge => {
+      if (_.get(edge, "node.frontmatter.sources")) {
+        edge.node.frontmatter.sources.forEach(source => {
+          authors = authors.concat(source.authors)
+        })
+      }
+    })
+
+    authors = _.uniq(authors)
+
+    // create author pages
+    authors.forEach(author => {
+      createPage({
+        path: `/author/${slugify(author)}`,
+        component: templates.authorPosts,
+        context: {
+          authorName: author,
+          imageUrl: `${slugify(author)}.png`,
         },
       })
     })

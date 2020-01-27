@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import Source from "../components/Source"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import { Badge } from "reactstrap"
@@ -23,6 +24,10 @@ const SinglePost = ({ data }) => {
           </li>
         ))}
       </ul>
+      <h2>Sources: </h2>
+      {post.sources.map((source, index) => (
+        <Source key={index} source={source} />
+      ))}
     </Layout>
   )
 }
