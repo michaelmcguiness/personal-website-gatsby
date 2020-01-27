@@ -25,15 +25,16 @@ const Post = ({ slug, frontmatter: { tags, title, sources }, body }) => {
           </span>
         </CardSubtitle>
         <CardText style={{ marginTop: "0.5rem" }}>{body}</CardText>
-        <ul className="post-tags">
+        <div style={{ display: "flex", flexWrap: "wrap", margin: "10px 0" }}>
           {tags.map((tag, index) => (
-            <li key={index}>
-              <Link to={`/tag/${slugify(tag)}`}>
-                <Badge color="primary">{tag}</Badge>
-              </Link>
-            </li>
+            <Link key={index} to={`/tag/${slugify(tag)}`}>
+              <Badge style={{ margin: "2px" }} color="primary">
+                {tag}
+              </Badge>
+            </Link>
           ))}
-        </ul>
+        </div>
+
         <Link to={slug} className="btn btn-outline-primary float-right">
           Read more
         </Link>

@@ -16,7 +16,10 @@ const notesPage = ({ pageContext }) => {
         {tags.map(tag => (
           <li key={tag} style={{ marginBottom: "10px" }}>
             <Button color="primary" href={`/tag/${slugify(tag)}`}>
-              {tag} <Badge color="light">{tagPostCounts[tag]}</Badge>
+              {tag}{" "}
+              <Badge style={{ marginLeft: "5px" }} color="light">
+                {tagPostCounts[tag]}
+              </Badge>
             </Button>
           </li>
         ))}
@@ -26,7 +29,10 @@ const notesPage = ({ pageContext }) => {
         {authors.map(author => (
           <li key={author} style={{ marginBottom: "10px" }}>
             <Button color="primary" href={`/author/${slugify(author)}`}>
-              {author} <Badge color="light">{authorPostCounts[author]}</Badge>
+              {author}{" "}
+              <Badge style={{ marginLeft: "5px" }} color="light">
+                {authorPostCounts[author]}
+              </Badge>
             </Button>
           </li>
         ))}

@@ -8,7 +8,9 @@ import Intro from "../components/Intro"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Intro />
+    <div style={{ height: "400px" }}>
+      <Intro />
+    </div>
     <StaticQuery
       query={IndexQuery}
       render={data => {
