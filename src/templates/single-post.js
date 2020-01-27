@@ -15,15 +15,15 @@ const SinglePost = ({ data }) => {
       <br />
       <h1>{post.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
-      <ul className="post-tags">
-        {post.tags.map(tag => (
-          <li key={tag}>
-            <Link to={`/tag/${slugify(tag)}`}>
-              <Badge color="primary">{tag}</Badge>
-            </Link>
-          </li>
+      <div style={{ display: "flex", flexWrap: "wrap", margin: "10px 0" }}>
+        {post.tags.map((tag, index) => (
+          <Link key={index} to={`/tag/${slugify(tag)}`}>
+            <Badge style={{ margin: "2px" }} color="primary">
+              {tag}
+            </Badge>
+          </Link>
         ))}
-      </ul>
+      </div>
       <h2>Sources: </h2>
       {post.sources.map((source, index) => (
         <Source key={index} source={source} />

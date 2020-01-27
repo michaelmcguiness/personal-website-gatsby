@@ -4,11 +4,11 @@ import Typist from "react-typist"
 const styles = {
   maxWidth: "50rem",
   fontSize: "1.4rem",
-  margin: "5rem auto",
+  margin: "5rem auto 2rem",
   padding: "2rem",
-  minHeight: "500px",
+  minHeight: "550px",
 }
-const Intro = props => {
+const Intro = () => {
   return (
     <div style={styles}>
       <Typist avgTypingDelay={50} cursor={{ hideWhenDone: true }}>
