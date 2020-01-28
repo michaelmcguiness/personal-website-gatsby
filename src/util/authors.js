@@ -9,6 +9,17 @@ const authors = [
     bio: `Peter Thiel is an entrepreneur and investor. He cofounded PayPal, led it as CEO, and took it public; he made the first outside investment in Facebook, where he serves as a director; and he cofounded Palantir Technologies, where he serves as chairman. He has provided early funding for LinkedIn, Yelp, and dozens of startups, many run by former colleagues who have been dubbed the “PayPal Mafia.” He is a partner at Founders Fund, a Silicon Valley venture capital firm that has funded companies including SpaceX and Airbnb. He started the Thiel Fellowship, which funds young entrepreneurs, and he leads the Thiel Foundation, which works to advance technological progress and long-term thinking. He is also the #1 New York Times bestselling author of Zero to One: Notes on Startups, or How to Build the Future.`,
     imageUrl: "peter-thiel.png",
   },
+  {
+    name: "Columbia Business School",
+    bio: `Academic institution.`,
+    imageUrl: "columbia-business-school.png",
+  },
+  {
+    name: "Ken Kocienda",
+    bio:
+      "Ken Kocienda was a software engineer and designer at Apple for over fifteen years. After graduating from Yale with a degree in history, he fixed motorcycles in Arizona, worked in the editorial library of a newspaper in New York, taught English in Japan, and made fine art photographs in all those places. Eventually, he discovered the internet, taught himself computer programming, and made his way through a succession of dot-com-era startups, before landing at Apple in 2001, where he worked on the software teams that created the Safari web browser, iPhone, iPad, and Apple Watch. Ken lives in San Jose, California with his wife.",
+    imageUrl: "ken-kocienda.png",
+  },
 ]
 
 module.exports = authors

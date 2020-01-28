@@ -10,7 +10,8 @@ const Source = ({ source: { title, authors, link } }) => {
       by{" "}
       {authors.map((author, index) => (
         <a key={index} href={`/author/${slugify(author)}`}>
-          {author}{" "}
+          {author}
+          {index < authors.length - 1 ? ", " : " "}
         </a>
       ))}
     </span>
