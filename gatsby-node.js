@@ -120,7 +120,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     // create author pages
     authors.forEach(author => {
-      console.log(slugify(author))
       createPage({
         path: `/author/${slugify(author)}`,
         component: templates.authorPosts,

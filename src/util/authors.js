@@ -20,6 +20,11 @@ const authors = [
       "Ken Kocienda was a software engineer and designer at Apple for over fifteen years. After graduating from Yale with a degree in history, he fixed motorcycles in Arizona, worked in the editorial library of a newspaper in New York, taught English in Japan, and made fine art photographs in all those places. Eventually, he discovered the internet, taught himself computer programming, and made his way through a succession of dot-com-era startups, before landing at Apple in 2001, where he worked on the software teams that created the Safari web browser, iPhone, iPad, and Apple Watch. Ken lives in San Jose, California with his wife.",
     imageUrl: "ken-kocienda.png",
   },
+  {
+    name: "Rochester Institute of Technology",
+    bio: "Academic institution.",
+    imageUrl: "rochester-institute-of-technology.png",
+  },
 ]
 
 module.exports = authors
