@@ -36,6 +36,12 @@ const authors = [
     bio: `Andrew Chen is a general partner at Andreessen Horowitz, investing in early stage consumer startups — focused on the themes of marketplaces, micro-entrepreneurship, games/entertainment, and next-gen social products. He is on the board of Virtual Kitchen Co, Substack, Snackpass, Singularity 6, Sandbox VR, Hipcamp, Envoy and Atrium. Previously, he led the Rider Growth teams at Uber, focusing on efforts across acquisition, new user experience, churn, and notifications/email. He writes about user growth, metrics, and network effects at andrewchen.co and has been cited at Wired, WSJ, and New York Times. Andrew is an advisor/investor for tech startups including AngelList, Barkbox, Boba Guys, Dropbox, Front, Gusto, Product Hunt, Workato, among others. He holds a B.S. in Applied Mathematics from the University of Washington, where he graduated at the age of 19.`,
     imageUrl: "andrew-chen.png",
   },
+  {
+    name: "Michael Seibel",
+    bio:
+      "Michael Seibel is the CEO of YC. He was the cofounder and CEO Justin.tv and Socialcam. Socialcam sold to Autodesk in 2012 and under the leadership of Emmett Shear, Justin.tv became Twitch.tv and sold to Amazon in 2014. Before getting into startups, he spent a year as the finance director for a US Senate campaign and in 2005, Michael graduated from Yale University with a BA in political science.",
+    imageUrl: "michael-seibel.png",
+  },
 ]
 
 module.exports = authors

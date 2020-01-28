@@ -25,9 +25,13 @@ const SinglePost = ({ data }) => {
         ))}
       </div>
       <h2>Sources: </h2>
-      {post.sources.map((source, index) => (
-        <Source key={index} source={source} />
-      ))}
+      <ul>
+        {post.sources.map((source, index) => (
+          <li>
+            <Source key={index} source={source} />
+          </li>
+        ))}
+      </ul>
     </Layout>
   )
 }

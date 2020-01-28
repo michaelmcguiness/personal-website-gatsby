@@ -15,13 +15,19 @@ const Post = ({ slug, frontmatter: { tags, title, sources }, body }) => {
   return (
     <Card>
       <CardBody>
-        <CardTitle className="cardTitle">{title}</CardTitle>
+        <Link to={slug}>
+          <CardTitle className="cardTitle">{title}</CardTitle>
+        </Link>
         <CardSubtitle style={{ marginTop: "0.5rem" }}>
           <span>
             Sources:{" "}
-            {sources.map((source, index) => (
-              <Source key={index} source={source} />
-            ))}
+            <ul>
+              {sources.map((source, index) => (
+                <li>
+                  <Source key={index} source={source} />
+                </li>
+              ))}
+            </ul>
           </span>
         </CardSubtitle>
         <CardText style={{ marginTop: "0.5rem" }}>{body}</CardText>
