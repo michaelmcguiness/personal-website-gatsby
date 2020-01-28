@@ -48,7 +48,7 @@ In design thinking, there are five core principles for improving or creating a n
 
 ## Design Thinking Process Overview
 
-![Best Innovation Opportunities Chart](../../images/design-thinking-fundamentals-img2.png)
+![Design Thinking Process Overview Chart](../../images/design-thinking-fundamentals-img2.png)
 
 The initial problem description is the beginning of the design thinking process. Problems can come from all sorts of places. They can come from a negative user experience, a newspaper story, a product that is not functioning well or expectations that are not being met. They can also come from a market that is not responding to certain needs or failing products and services. The research that you conduct helps you to understand more about the problem and more about the people affected by this problem.
 
