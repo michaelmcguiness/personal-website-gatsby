@@ -3,7 +3,7 @@ title: "Product Management"
 sources:
   [
     {
-      title: "The Hard Thing About Hard Things ",
+      title: "The Hard Thing About Hard Things",
       authors: ["Ben Horowitz"],
       link: "https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205",
     },

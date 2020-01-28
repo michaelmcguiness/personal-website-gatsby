@@ -42,6 +42,24 @@ const authors = [
       "Michael Seibel is the CEO of YC. He was the cofounder and CEO Justin.tv and Socialcam. Socialcam sold to Autodesk in 2012 and under the leadership of Emmett Shear, Justin.tv became Twitch.tv and sold to Amazon in 2014. Before getting into startups, he spent a year as the finance director for a US Senate campaign and in 2005, Michael graduated from Yale University with a BA in political science.",
     imageUrl: "michael-seibel.png",
   },
+  {
+    name: "Michael Mauboussin",
+    bio:
+      "Michael J. Mauboussin is Head of Consilient Research at Counterpoint Global. Previously, he was Director of Research at BlueMountain Capital, Head of Global Financial Strategies at Credit Suisse, and Chief Investment Strategist at Legg Mason Capital Management. He is also the author of three books, including More Than You Know: Finding Financial Wisdom in Unconventional Places, named in the The 100 Best Business Books of All Time by 800-CEO-Read. Michael has been an adjunct professor of finance at Columbia Business School since 1993, and received the Dean's Award for Teaching Excellence in 2009 and 2016. He is also chairman of the board of trustees of the Santa Fe Institute, a leading center for multi-disciplinary research in complex systems theory.",
+    imageUrl: "michael-mauboussin.png",
+  },
+  {
+    name: "James Baron",
+    bio:
+      "James Baron is the William S. Beinecke Professor of Management, with a secondary appointment in the Department of Sociology. Professor Baron’s research interests include human resources; organizational design and behavior; social stratification and inequality; work, labor markets, and careers; economic sociology; and entrepreneurial companies. Before coming to SOM in 2006, he taught at Stanford’s Graduate School of Business from 1982–2006. At Stanford, he taught the MBA core course, Human Resource Management. He was co-director of the Stanford Project on Emerging Companies (SPEC), a large-scale longitudinal study of the organizational design, human resource management practices, and financial and non-financial performance measures of entrepreneurial firms in Silicon Valley. Papers based on the project appeared in leading disciplinary journals, and an overview of the project in California Management Review won the 2003 Accenture Award for making “the most important contribution to improving the practice of management.”",
+    imageUrl: "james-baron.png",
+  },
+  {
+    name: "Michael Hannan",
+    bio:
+      "Michael Hannan investigates change in the world of organizations. This work involves both formal theoretical treatments of organizational change and empirical studies of the emergence, change, and dissolution of categories and populations of organizations. His current theoretical research involves applications of dynamic logics and Bayesian models to sociological theory, exploration of the emergence of categories, and typecasting processes. His current empirical research investigates the dynamics of categories in the wine industry.",
+    imageUrl: "michael-hannan.png",
+  },
 ]
 
 module.exports = authors
