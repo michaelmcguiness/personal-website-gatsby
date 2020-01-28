@@ -25,6 +25,17 @@ const authors = [
     bio: "Academic institution.",
     imageUrl: "rochester-institute-of-technology.png",
   },
+  {
+    name: "Ben Horowitz",
+    bio:
+      "Ben Horowitz is the cofounder and general partner of Andreessen Horowitz, a Silicon Valley-based venture capital firm that invests in entrepreneurs building the next generation of leading technology companies. The firm's investments include Airbnb, GitHub, Facebook, Pinterest, and Twitter. Previously, he was cofounder and CEO of Opsware, formerly Loudcloud, which was acquired by Hewlett-Packard for $1.6 billion in 2007. Horowitz writes about his experiences and insights from his career as a computer science student, software engineer, cofounder, CEO, and investor in a blog that is read by nearly 10 million people. He has also been featured in the Wall Street Journal, the New York Times, the New Yorker, Fortune, the Economist, and Bloomberg Businessweek, among others. Horowitz lives in the San Francisco Bay Area with his wife Felicia.",
+    imageUrl: "ben-horowitz.png",
+  },
+  {
+    name: "Andrew Chen",
+    bio: `Andrew Chen is a general partner at Andreessen Horowitz, investing in early stage consumer startups — focused on the themes of marketplaces, micro-entrepreneurship, games/entertainment, and next-gen social products. He is on the board of Virtual Kitchen Co, Substack, Snackpass, Singularity 6, Sandbox VR, Hipcamp, Envoy and Atrium. Previously, he led the Rider Growth teams at Uber, focusing on efforts across acquisition, new user experience, churn, and notifications/email. He writes about user growth, metrics, and network effects at andrewchen.co and has been cited at Wired, WSJ, and New York Times. Andrew is an advisor/investor for tech startups including AngelList, Barkbox, Boba Guys, Dropbox, Front, Gusto, Product Hunt, Workato, among others. He holds a B.S. in Applied Mathematics from the University of Washington, where he graduated at the age of 19.`,
+    imageUrl: "andrew-chen.png",
+  },
 ]
 
 module.exports = authors
