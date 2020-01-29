@@ -19,11 +19,9 @@ const Intro = () => {
         {" I just want to build cool things with people I respect and admire."}
         <br /> <br />
         <Typist.Delay ms={500} />
-        {
-          "I write these notes to better absorb great ideas in the books I read."
-        }{" "}
-        <Typist.Delay ms={500} />
-        {"But if other people find them useful, that's great too."}
+        {"I also take a lot of notes."}
+        <Typist.Delay ms={500} />{" "}
+        {"Anytime I hear or read something smart, I try to write it down."}
       </Typist>{" "}
     </div>
   )

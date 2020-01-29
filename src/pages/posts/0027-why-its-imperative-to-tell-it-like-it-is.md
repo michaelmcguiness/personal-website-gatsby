@@ -1,5 +1,5 @@
 ---
-title: "Why it's Imperative to Tell it Like it is"
+title: "Why It's Imperative to Tell it Like it is"
 sources:
   [
     {

@@ -94,6 +94,12 @@ const authors = [
     bio: "Academic institution.",
     imageUrl: "harvard-business-school.png",
   },
+  {
+    name: "The Knowledge Project",
+    bio:
+      "The Knowledge Project Podcast with Shane Parrish helps you master the best of what other people have already figured out.",
+    imageUrl: "the-knowledge-project.png",
+  },
 ]
 
 module.exports = authors
