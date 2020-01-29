@@ -78,6 +78,22 @@ const authors = [
       "Greylock Partners is a leading venture capital firm based in Silicon Valley.",
     imageUrl: "greylock-partners.png",
   },
+  {
+    name: "Wharton",
+    bio: "Academic institution.",
+    imageUrl: "wharton.png",
+  },
+  {
+    name: "McKinsey",
+    bio:
+      "McKinsey & Company is an American management consulting firm. McKinsey has published the McKinsey Quarterly since 1964, funds the McKinsey Global Institute research organization, publishes reports on management topics, and has authored influential books on management.",
+    imageUrl: "mckinsey.png",
+  },
+  {
+    name: "Harvard Business School",
+    bio: "Academic institution.",
+    imageUrl: "harvard-business-school.png",
+  },
 ]
 
 module.exports = authors
