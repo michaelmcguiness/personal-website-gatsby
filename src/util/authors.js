@@ -100,6 +100,18 @@ const authors = [
       "The Knowledge Project Podcast with Shane Parrish helps you master the best of what other people have already figured out.",
     imageUrl: "the-knowledge-project.png",
   },
+  {
+    name: "Eric Ries",
+    bio:
+      "Eric Ries is an entrepreneur and author of the New York Times bestseller The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Business, published by Crown Business. He serves on the advisory board of a number of technology startups, and has consulted to new and established companies as well as venture capital firms. In 2010, he was named entrepreneur-in-residence at Harvard Business School and is currently an IDEO Fellow. Previously he co-founded and served as CTO of IMVU, his third startup. In 2007, BusinessWeek named him one of the Best Young Entrepreneurs of Tech. In 2009, he was honored with a TechFellow award in the category of Engineering Leadership.The Lean Startup methodology has been written about in The New York Times, The Wall Street Journal, Harvard Business Review,Inc. (where he appeared on the cover), Wired, Fast Company, and countless blogs. He lives in San Francisco.",
+    imageUrl: "eric-ries.png",
+  },
+  {
+    name: "Kevin Hale",
+    bio:
+      "Kevin is a Partner at YC. He was cofounder of Wufoo, which was funded by Y Combinator in 2006 and acquired by SurveyMonkey in 2011. He was responsible for Wufoo’s much-admired design and speaks widely about UX. Before Wufoo he wrote about design for Particletree and was editor in chief of the web development magazine Treehouse. He has a BA from Stetson University in Digital Arts and English.",
+    imageUrl: "kevin-hale.png",
+  },
 ]
 
 module.exports = authors
