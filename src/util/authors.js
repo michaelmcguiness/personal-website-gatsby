@@ -112,6 +112,35 @@ const authors = [
       "Kevin is a Partner at YC. He was cofounder of Wufoo, which was funded by Y Combinator in 2006 and acquired by SurveyMonkey in 2011. He was responsible for Wufoo’s much-admired design and speaks widely about UX. Before Wufoo he wrote about design for Particletree and was editor in chief of the web development magazine Treehouse. He has a BA from Stetson University in Digital Arts and English.",
     imageUrl: "kevin-hale.png",
   },
+  {
+    name: "Nick Szabo",
+    bio:
+      "Nick Szabo is a computer scientist, legal scholar and cryptographer known for his research in digital contracts and digital currency. He graduated from the University of Washington in 1989 with a degree in computer science and received a law degree from George Washington University Law School.",
+    imageUrl: "nick-szabo.png",
+  },
+  {
+    name: "Saifedean Ammous",
+    bio:
+      "Saifedean Ammous is an economist and author focusing on bitcoin, who authored the first academic book on the economics of bitcoin, The Bitcoin Standard: The Decentralized Alternative to Central Banking, published by Wiley in 2018. This website is intended to showcase Dr. Ammous’ research in studying the economics of bitcoin, and nothing in it should be construed as investment advice. Bitcoin is a highly volatile and risky asset whose future is uncertain, and whose ownership requires an understanding of complex technologies and tools. Before deciding whether to invest in bitcoin, you should do your own extensive research into the financial and technical aspects involved. Nothing written in this website should be considered advice related to that decision.",
+    imageUrl: "saifedean-ammous.png",
+  },
+  {
+    name: "Andreessen Horowitz",
+    bio: `Founded in 2009 by Marc Andreessen and Ben Horowitz, Andreessen Horowitz (known as "a16z") is a venture capital firm in Silicon Valley, California that backs bold entrepreneurs building the future through technology.`,
+    imageUrl: "andreessen-horowitz.png",
+  },
+  {
+    name: "Chris Dixon",
+    bio:
+      "Partner at a16z, focusing on cryptocurrencies/blockchains and new computing platforms.",
+    imageUrl: "chris-dixon.png",
+  },
+  {
+    name: "Andrew McAfee",
+    bio:
+      'Andrew McAfee (@amcafee), a principal research scientist at MIT, studies how digital technologies are changing the world. His new book "More from Less: The Surprising Story of How We Learned to Prosper Using Fewer Resources - and What Happens Next" will be published by Scribner in October of 2019. His prior book, written with Erik Brynjolfsson, is "Machine | Platform | Crowd: Harnessing our Digital Future." Their 2014 book "The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies" was a New York Times bestseller and was shortlisted for the Financial Times / McKinsey business book of the year award.',
+    imageUrl: "andrew-mcafee.png",
+  },
 ]
 
 module.exports = authors
