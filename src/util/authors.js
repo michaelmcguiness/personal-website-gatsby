@@ -60,6 +60,18 @@ const authors = [
       "Michael Hannan investigates change in the world of organizations. This work involves both formal theoretical treatments of organizational change and empirical studies of the emergence, change, and dissolution of categories and populations of organizations. His current theoretical research involves applications of dynamic logics and Bayesian models to sociological theory, exploration of the emergence of categories, and typecasting processes. His current empirical research investigates the dynamics of categories in the wine industry.",
     imageUrl: "michael-hannan.png",
   },
+  {
+    name: "Eric Schmidt",
+    bio:
+      "Eric Emerson Schmidt (born April 27, 1955) is an American software engineer, businessman, as well as the executive chairman of Alphabet Inc (formerly named Google). In 2013, Forbes ranked Schmidt as the 138th-richest person in the world, with an estimated wealth of $9.1 billion. As an intern at Bell Labs, Schmidt did a complete re-write of Lex, a program to generate lexical analysers for the Unix computer operating system. From 1997 to 2001, he was chief executive officer of Novell. From 2001 to 2011, he served as the CEO of Google. He served on various other boards in academia and industry, such as the boards of trustees for both Carnegie Mellon University and Princeton University.",
+    imageUrl: "eric-schmidt.png",
+  },
+  {
+    name: "Jonathan Rosenberg",
+    bio:
+      "Jonathan Rosenberg is the former Senior Vice President of Products at Google and current advisor to Alphabet Inc. CEO Larry Page.",
+    imageUrl: "jonathan-rosenberg.png",
+  },
 ]
 
 module.exports = authors

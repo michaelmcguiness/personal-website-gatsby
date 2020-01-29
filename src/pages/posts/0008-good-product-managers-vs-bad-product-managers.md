@@ -1,5 +1,5 @@
 ---
-title: "Product Management"
+title: "Good Product Managers vs. Bad Product Managers"
 sources:
   [
     {
