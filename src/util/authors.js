@@ -72,6 +72,12 @@ const authors = [
       "Jonathan Rosenberg is the former Senior Vice President of Products at Google and current advisor to Alphabet Inc. CEO Larry Page.",
     imageUrl: "jonathan-rosenberg.png",
   },
+  {
+    name: "Greylock Partners",
+    bio:
+      "Greylock Partners is a leading venture capital firm based in Silicon Valley.",
+    imageUrl: "greylock-partners.png",
+  },
 ]
 
 module.exports = authors
