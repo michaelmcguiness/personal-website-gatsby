@@ -141,6 +141,17 @@ const authors = [
       'Andrew McAfee (@amcafee), a principal research scientist at MIT, studies how digital technologies are changing the world. His new book "More from Less: The Surprising Story of How We Learned to Prosper Using Fewer Resources - and What Happens Next" will be published by Scribner in October of 2019. His prior book, written with Erik Brynjolfsson, is "Machine | Platform | Crowd: Harnessing our Digital Future." Their 2014 book "The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant Technologies" was a New York Times bestseller and was shortlisted for the Financial Times / McKinsey business book of the year award.',
     imageUrl: "andrew-mcafee.png",
   },
+  {
+    name: "Ray Dalio",
+    bio: `Ray Dalio is the founder, co-Chief Investment Officer and co-Chairman of Bridgewater Associates, which is a global macro investment firm and is the world’s largest hedge fund. He's also the author of the #1 New York Times Bestseller Principles: Life and Work. He is known to have a very practical understanding of economics that is very different from conventional economic thinking that he spells out in his video series "How the Economic Machine Works".`,
+    imageUrl: "ray-dalio.png",
+  },
+  {
+    name: "Ruchir Sharma",
+    bio:
+      "Ruchir Sharma is an Indian investor and fund manager who has written widely on global economics and politics. As Chief Global Strategist and head of the Emerging Markets Equity team at Morgan Stanley Investment Management, he manages $20 billion in assets under management.",
+    imageUrl: "ruchir-sharma.png",
+  },
 ]
 
 module.exports = authors
