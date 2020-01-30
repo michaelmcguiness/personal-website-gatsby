@@ -158,6 +158,18 @@ const authors = [
       "Seth Andrew Klarman is an American billionaire investor, hedge fund manager, and author. He is a proponent of value investing. He is the chief executive and portfolio manager of the Baupost Group, a Boston-based private investment partnership he founded in 1982.",
     imageUrl: "seth-klarman.png",
   },
+  {
+    name: "Howard Marks",
+    bio:
+      "Since the formation of Oaktree in 1995, Mr. Marks has been responsible for ensuring the firm’s adherence to its core investment philosophy; communicating closely with clients concerning products and strategies; and contributing his experience to big-picture decisions relating to investments and corporate direction. From 1985 until 1995, Mr. Marks led the groups at The TCW Group, Inc. that were responsible for investments in distressed debt, high yield bonds, and convertible securities. He was also Chief Investment Officer for Domestic Fixed Income at TCW. Previously, Mr. Marks was with Citicorp Investment Management for 16 years, where from 1978 to 1985 he was Vice President and senior portfolio manager in charge of convertible and high yield securities. Between 1969 and 1978, he was an equity research analyst and, subsequently, Citicorp's Director of Research. Mr. Marks holds a B.S.Ec. degree cum laude from the Wharton School of the University of Pennsylvania with a major in finance and an M.B.A. in accounting and marketing from the Booth School of Business of the University of Chicago, where he received the George Hay Brown Prize. He is a CFA® charterholder. Mr. Marks is a Trustee and Chairman of the Investment Committee at the Metropolitan Museum of Art. He chairs the Investment Committee of the Royal Drawing School and is Professor of Practice at King’s Business School (both in London). He serves on the Shanghai International Financial Advisory Council and the Advisory Board of Duke Kunshan University. He is an Emeritus Trustee of the University of Pennsylvania, where from 2000 to 2010 he chaired the Investment Board.",
+    imageUrl: "howard-marks.png",
+  },
+  {
+    name: "Richard Dawkins",
+    bio:
+      "As an evolutionary biologist, Richard Dawkins has broadened our understanding of the genetic origin of our species; as a popular author, he has helped lay readers understand complex scientific concepts. He's best-known for the ideas laid out in his landmark book The Selfish Gene and fleshed out in The Extended Phenotype: the rather radical notion that Darwinian selection happens not at the level of the individual, but at the level of our DNA. The implication: We evolved for only one purpose — to serve our genes. Of perhaps equal importance is Dawkins' concept of the meme, which he defines as a self-replicating unit of culture -- an idea, a chain letter, a catchy tune, an urban legend -- which is passed person-to-person, its longevity based on its ability to lodge in the brain and inspire transmission to others. Introduced in The Selfish Gene in 1976, the concept of memes has itself proven highly contagious, inspiring countless accounts and explanations of idea propagation in the information age.",
+    imageUrl: "richard-dawkins.png",
+  },
 ]
 
 module.exports = authors
