@@ -152,6 +152,12 @@ const authors = [
       "Ruchir Sharma is an Indian investor and fund manager who has written widely on global economics and politics. As Chief Global Strategist and head of the Emerging Markets Equity team at Morgan Stanley Investment Management, he manages $20 billion in assets under management.",
     imageUrl: "ruchir-sharma.png",
   },
+  {
+    name: "Seth Klarman",
+    bio:
+      "Seth Andrew Klarman is an American billionaire investor, hedge fund manager, and author. He is a proponent of value investing. He is the chief executive and portfolio manager of the Baupost Group, a Boston-based private investment partnership he founded in 1982.",
+    imageUrl: "seth-klarman.png",
+  },
 ]
 
 module.exports = authors
