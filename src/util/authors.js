@@ -170,6 +170,30 @@ const authors = [
       "As an evolutionary biologist, Richard Dawkins has broadened our understanding of the genetic origin of our species; as a popular author, he has helped lay readers understand complex scientific concepts. He's best-known for the ideas laid out in his landmark book The Selfish Gene and fleshed out in The Extended Phenotype: the rather radical notion that Darwinian selection happens not at the level of the individual, but at the level of our DNA. The implication: We evolved for only one purpose — to serve our genes. Of perhaps equal importance is Dawkins' concept of the meme, which he defines as a self-replicating unit of culture -- an idea, a chain letter, a catchy tune, an urban legend -- which is passed person-to-person, its longevity based on its ability to lodge in the brain and inspire transmission to others. Introduced in The Selfish Gene in 1976, the concept of memes has itself proven highly contagious, inspiring countless accounts and explanations of idea propagation in the information age.",
     imageUrl: "richard-dawkins.png",
   },
+  {
+    name: "Marc Andreessen",
+    bio:
+      "Marc Andreessen is a cofounder and general partner at the venture capital firm Andreessen Horowitz. He is an innovator and creator, one of the few to pioneer a software category used by more than a billion people and one of the few to establish multiple billion-dollar companies. Marc co-created the highly influential Mosaic internet browser and co-founded Netscape, which later sold to AOL for $4.2 billion. He also co-founded Loudcloud, which as Opsware, sold to Hewlett-Packard for $1.6 billion. He later served on the board of Hewlett-Packard from 2008 to 2018. Marc holds a BS in Computer Science from the University of Illinois at Urbana-Champaign.",
+    imageUrl: "marc-andreessen.png",
+  },
+  {
+    name: "Naval Ravikant",
+    bio:
+      "Naval Ravikant is the CEO and a co-founder of AngelList. He previously co-founded Epinions (which went public as part of Shopping.com) and Vast.com. He is an active Angel investor, and have invested in dozens of companies, including Twitter, Uber, Yammer, Stack Overflow and Wanelo.",
+    imageUrl: "naval-ravikant.png",
+  },
+  {
+    name: "Cal Newport",
+    bio:
+      "Cal Newport is an associate professor of computer science at Georgetown University. He's also a writer who focuses on the impact of technology on society. He's the author of six books, including Digital Minimalism and Deep Work, and writes regular essays for his popular website, calnewport.com.",
+    imageUrl: "cal-newport.png",
+  },
+  {
+    name: "Dale Carnegie",
+    bio:
+      "Dale Carnegie was an American writer and lecturer, and the developer of courses in self-improvement, salesmanship, corporate training, public speaking, and interpersonal skills.",
+    imageUrl: "dale-carnegie.png",
+  },
 ]
 
 module.exports = authors
