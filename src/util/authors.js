@@ -190,6 +190,11 @@ const authors = [
     bio:
       "Chris Anderson is a British-American author and entrepreneur. He was with The Economist for seven years before joining WIRED magazine in 2001, where he was the editor-in-chief until 2012.",
   },
+  {
+    name: "Gibson Biddle",
+    bio:
+      "Former VP/CPO at Netflix/Chegg. Now a speaker, teacher, and workshop host.",
+  },
 ]
 
 module.exports = authors
